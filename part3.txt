@@ -1,0 +1,27 @@
+Question 1:
+a = Album.find_by(title: "Vinicius De Moraes")
+a.tracks
+
+Question 2:
+b = Artist.find_by(name: "Philip Glass Ensemble")
+b.albums
+
+Question 3:
+c = Playlist.find_by(name: "Brazilian Music")
+c.tracks
+
+Question 4:
+d = Genre.find_by(name: "Jazz")
+d.tracks
+
+Question 5:
+e = Track.find_by(name: "My Time After Awhile")
+e.genre
+
+Question 6:
+f = Track.find_by(name: "My Time After Awhile")
+f.media_type
+
+Question 7:
+g = Track.find_by(name: "My Time After Awhile")
+g.album
